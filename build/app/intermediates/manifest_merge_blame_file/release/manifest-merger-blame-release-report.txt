@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.example2"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+11-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:2:2-76
+11-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:2:19-73
+12    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+12-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:3:5-74
+12-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:3:22-71
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:4:5-76
+13-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:4:22-74
+14    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+14-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:5:5-89
+14-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:5:22-86
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:6:5-80
+15-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:6:22-78
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:7:5-65
+16-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:7:22-63
+17    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+17-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+17-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+18
+19    <application
+20        android:name="android.app.Application"
+20-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:11:9-42
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.6.0] C:\Users\faisa\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:12:9-43
+23        android:label="example2" >
+23-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:10:9-33
+24        <activity
+24-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:13:9-33:20
+25            android:name="com.example.example2.MainActivity"
+25-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:14:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:18:13-163
+27            android:exported="true"
+27-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:15:13-36
+28            android:hardwareAccelerated="true"
+28-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:19:13-47
+29            android:launchMode="singleTop"
+29-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:16:13-43
+30            android:theme="@style/LaunchTheme"
+30-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:17:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:20:13-55
+32
+33            <!--
+34                 Specifies an Android theme to apply to this Activity as soon as
+35                 the Android process has started. This theme is visible to the user
+36                 while the Flutter UI initializes. After that, this theme continues
+37                 to determine the Window background behind the Flutter UI.
+38            -->
+39            <meta-data
+39-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:25:13-28:17
+40                android:name="io.flutter.embedding.android.NormalTheme"
+40-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:26:15-70
+41                android:resource="@style/NormalTheme" />
+41-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:27:15-52
+42
+43            <intent-filter>
+43-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:29:13-32:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:30:17-68
+44-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:30:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:31:17-76
+46-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:31:27-74
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+53-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:36:9-38:33
+54            android:name="flutterEmbedding"
+54-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:37:13-44
+55            android:value="2" />
+55-->C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\AndroidManifest.xml:38:13-30
+56
+57        <receiver
+57-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-18:40
+58            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+58-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-91
+59            android:exported="false" />
+59-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+60        <receiver
+60-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-21:40
+61            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+61-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-97
+62            android:exported="false" />
+62-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-37
+63        <receiver
+63-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-31:20
+64            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+64-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-101
+65            android:exported="false" >
+65-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+66            <intent-filter>
+66-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-30:29
+67                <action android:name="android.intent.action.BOOT_COMPLETED" />
+67-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:17-79
+67-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:25-76
+68                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+68-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:17-84
+68-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:25-81
+69                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+69-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-82
+69-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:25-79
+70                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+70-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-82
+70-->[:flutter_local_notifications] C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:25-79
+71            </intent-filter>
+72        </receiver>
+73
+74        <uses-library
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\faisa\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+75            android:name="androidx.window.extensions"
+75-->[androidx.window:window:1.0.0-beta04] C:\Users\faisa\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+76            android:required="false" />
+76-->[androidx.window:window:1.0.0-beta04] C:\Users\faisa\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+77        <uses-library
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\faisa\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+78            android:name="androidx.window.sidecar"
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\faisa\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+79            android:required="false" />
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\faisa\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+80    </application>
+81
+82</manifest>

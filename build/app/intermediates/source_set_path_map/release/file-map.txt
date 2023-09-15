@@ -1,0 +1,15 @@
+com.example.example2.app-jetified-window-1.0.0-beta04-0 C:\Users\faisa\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\res
+com.example.example2.app-jetified-annotation-experimental-1.1.0-1 C:\Users\faisa\.gradle\caches\transforms-3\6c0c163cc77ae6c91f9f7dfcd179c29c\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.example2.app-core-1.6.0-2 C:\Users\faisa\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\res
+com.example.example2.app-jetified-window-java-1.0.0-beta04-3 C:\Users\faisa\.gradle\caches\transforms-3\ae81e06d24c799147c26814497a2a305\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.example2.app-media-1.1.0-4 C:\Users\faisa\.gradle\caches\transforms-3\c7b5e40c8322718297956b3bec8a46d6\transformed\media-1.1.0\res
+com.example.example2.app-main-5 C:\Users\faisa\Downloads\notifications_sample\android\app\src\main\res
+com.example.example2.app-release-6 C:\Users\faisa\Downloads\notifications_sample\android\app\src\release\res
+com.example.example2.app-pngs-7 C:\Users\faisa\Downloads\notifications_sample\build\app\generated\res\pngs\release
+com.example.example2.app-resValues-8 C:\Users\faisa\Downloads\notifications_sample\build\app\generated\res\resValues\release
+com.example.example2.app-rs-9 C:\Users\faisa\Downloads\notifications_sample\build\app\generated\res\rs\release
+com.example.example2.app-mergeReleaseResources-10 C:\Users\faisa\Downloads\notifications_sample\build\app\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.example2.app-mergeReleaseResources-11 C:\Users\faisa\Downloads\notifications_sample\build\app\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.example2.app-merged_res-12 C:\Users\faisa\Downloads\notifications_sample\build\app\intermediates\merged_res\release
+com.example.example2.app-packaged_res-13 C:\Users\faisa\Downloads\notifications_sample\build\flutter_local_notifications\intermediates\packaged_res\release
+com.example.example2.app-packaged_res-14 C:\Users\faisa\Downloads\notifications_sample\build\flutter_timezone\intermediates\packaged_res\release
